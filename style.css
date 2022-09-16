@@ -1,0 +1,29 @@
+#scroll-progress {
+    position: fixed;
+    height  : 10px;
+    top     : 0;
+    left    : 0;
+    right   : 0;
+    overflow: hidden;
+}
+
+.render-progess{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(53, 53, 250);
+}
+
+.body-content{
+    margin-top: 12px;
+    padding: 0 100px;
+    text-align: justify;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
